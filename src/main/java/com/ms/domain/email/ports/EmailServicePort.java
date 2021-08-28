@@ -1,7 +1,7 @@
 package com.ms.domain.email.ports;
 
+import com.ms.adapters.dtos.EmailDto;
 import com.ms.domain.email.Email;
-import com.ms.dtos.EmailDto;
 
 public interface EmailServicePort {
 

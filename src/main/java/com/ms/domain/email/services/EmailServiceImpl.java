@@ -8,12 +8,12 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.mail.MailException;
 
+import com.ms.adapters.dtos.EmailDto;
 import com.ms.domain.email.Email;
 import com.ms.domain.email.enums.SituacaoEmail;
 import com.ms.domain.email.ports.EmailRepositoryPort;
 import com.ms.domain.email.ports.EmailServicePort;
 import com.ms.domain.email.ports.SendEmailServicePort;
-import com.ms.dtos.EmailDto;
 
 
 public class EmailServiceImpl implements EmailServicePort {

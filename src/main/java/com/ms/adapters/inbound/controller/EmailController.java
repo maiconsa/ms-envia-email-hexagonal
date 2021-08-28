@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.ms.adapters.dtos.EmailDto;
 import com.ms.domain.email.Email;
 import com.ms.domain.email.ports.EmailServicePort;
-import com.ms.dtos.EmailDto;
 
 @RestController
 @RequestMapping("/ms/envio-email")
